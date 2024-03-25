@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
 .logoimg{
     width: 60px;
 }
 .dropbtn {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #101820;
+    color: #0085CA;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -30,7 +36,44 @@
 
   .dropdown:hover .dropdown-content {display: block;}
 
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropbtn {background-color: #A5ACAF;}
+  nav {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+  color: black;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+.slogan {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+p {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+h1 {
+  font-family: Montserrat, Ariel, sans-serif;
+}
+h2 {
+  font-family: Montserrat, Ariel, sans-serif;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+footer {
+  background-color: #A5ACAF;
+  color: #0085CA;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 
