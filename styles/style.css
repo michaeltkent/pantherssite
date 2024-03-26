@@ -70,7 +70,25 @@ h2 {
   grid-row: 2 / span 2;
 }
 #stadium {
-  padding: 5%;
+  padding-top: 50px;
+  padding-left: 230px;
+}
+#stadium-caption {
+  padding-top: 15px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+#charlotte-picture  {
+  padding-left: 10%;
+}
+#city-caption {
+  padding-top: 15px;
+  padding-bottom: 80px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
 }
 .home-grid {
   display: grid;
@@ -120,6 +138,7 @@ footer .social img {
 body {
   background-color: #A5ACAF;
 }
+
 
 
 
