@@ -138,8 +138,27 @@ footer .social img {
 body {
   background-color: #A5ACAF;
 }
+#spotlight-h1 {
+  text-align: center;
+  font-family: Montserrat, Ariel, sans-serif;
+  padding-top: 5%;
+  color: #0085CA;
+}
+#spotlight-h2 {
+  text-align: center;
+  font-family: Montserrat, Ariel, sans-serif;
+  padding-bottom: 5%;
+  color: #0085CA;
+}
+#luke-spotlight {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: left;
+  padding-bottom: 5%;
+}
+.luke-kuechly {
 
-
-
-
-  
+}
+#stats {
+  font-family: Roboto, Helvetica, sans-serif;
+  font-weight: bold;
+}
