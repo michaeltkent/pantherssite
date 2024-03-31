@@ -212,3 +212,11 @@ body {
   width: 160%;
   padding-top: 50px;
 }
+#field-caption {
+  text-align: center;
+  font-weight: bold;
+  color: #0085CA;
+  font-family: Roboto, Helvetica, sans-serif;
+  line-height: 30px;
+  font-size: larger;
+}
