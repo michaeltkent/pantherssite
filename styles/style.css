@@ -25,6 +25,7 @@
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-family: Montserrat, Ariel, sans-serif;
   }
   .dropdown-content a {
     color: black;
@@ -50,8 +51,9 @@ header {
   font-family: Roboto, Helvetica, sans-serif;
   text-align: center;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: xx-large;
   padding-top: 10px;
+  color: #0085CA;
 }
 p {
   font-family: Roboto, Helvetica, sans-serif;
@@ -171,7 +173,7 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: bold;
   grid-column: 8 / 9;
-  grid-row: 3 / 5;
+  grid-row: 3 / 52;
   text-align: left;
   padding-left: 2%;
 }
@@ -225,4 +227,30 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   line-height: 30px;
   font-size: larger;
+}
+#title-trivia {
+  text-align: center;
+  color: #0085CA;
+  padding-top: 5%;
+}
+#trivia-title-p {
+  font-weight: bold;
+  padding: 3%;
+  font-size: large;
+  text-align: center;
+}
+#lightbulb {
+  margin: 0 auto;
+  display: block;
+}
+.trivia-h2s {
+  text-align: center;
+  color: #0085CA;
+  
+}
+.trivia-ps {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
