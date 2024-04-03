@@ -246,11 +246,23 @@ body {
 .trivia-h2s {
   text-align: center;
   color: #0085CA;
-  
+  padding: 6% 4% 6% 4%;
+  font-weight: bolder;
 }
 .trivia-ps {
   text-align: center;
   font-weight: bold;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding: 3% 4% 3% 4%;
+  font-size: larger;
+}
+#night-stadium {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+#night-caption {
+  text-align: center;
+  color: #0085CA;
+  font-weight: bold;
+  font-size: larger;
 }
